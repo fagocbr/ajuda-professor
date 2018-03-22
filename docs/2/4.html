@@ -1,0 +1,1628 @@
+
+<!DOCTYPE HTML>
+<html lang="pt-BR" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.4. Operadores · Curso de PHP</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="Open School - A escola livre">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="5.html" />
+    
+    
+    <link rel="prev" href="3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    SUMÁRIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../preface.html">
+            
+                <a href="../preface.html">
+            
+                    
+                    Introdução ao curso
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1/">
+            
+                <a href="../1/">
+            
+                    
+                    1. Apresentando o PHP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1/1.html">
+            
+                <a href="../1/1.html">
+            
+                    
+                    1.1. O que é PHP e sua história até hoje
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1/2.html">
+            
+                <a href="../1/2.html">
+            
+                    
+                    1.2. Preparando o Ambiente
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../1/3.html">
+            
+                <a href="../1/3.html">
+            
+                    
+                    1.3. Interface de Linha de Comando
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../1/4.html">
+            
+                <a href="../1/4.html">
+            
+                    
+                    1.4. Primeiros passos com o PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../1/5.html">
+            
+                <a href="../1/5.html">
+            
+                    
+                    1.5. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    2. Sintaxe Básica
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1.html">
+            
+                <a href="1.html">
+            
+                    
+                    2.1. Variáveis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2.html">
+            
+                <a href="2.html">
+            
+                    
+                    2.2. Tipos de dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3.html">
+            
+                <a href="3.html">
+            
+                    
+                    2.3. Escopo de documentos: require, include
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.4" data-path="4.html">
+            
+                <a href="4.html">
+            
+                    
+                    2.4. Operadores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="5.html">
+            
+                <a href="5.html">
+            
+                    
+                    2.5. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../3/">
+            
+                <a href="../3/">
+            
+                    
+                    3. Estruturas de controle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../3/1.html">
+            
+                <a href="../3/1.html">
+            
+                    
+                    3.1. Condicional: if, elseif e else
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../3/2.html">
+            
+                <a href="../3/2.html">
+            
+                    
+                    3.2. Switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../3/3.html">
+            
+                <a href="../3/3.html">
+            
+                    
+                    3.3. Expressões condicionais e ternárias
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../3/4.html">
+            
+                <a href="../3/4.html">
+            
+                    
+                    3.4. For
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../3/5.html">
+            
+                <a href="../3/5.html">
+            
+                    
+                    3.5. Foreach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../3/6.html">
+            
+                <a href="../3/6.html">
+            
+                    
+                    3.6. While
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../3/7.html">
+            
+                <a href="../3/7.html">
+            
+                    
+                    3.7. Do while
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../3/8.html">
+            
+                <a href="../3/8.html">
+            
+                    
+                    3.8. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../4/">
+            
+                <a href="../4/">
+            
+                    
+                    4. Arrays
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../4/1.html">
+            
+                <a href="../4/1.html">
+            
+                    
+                    4.1. Declaração de Arrays
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../4/2.html">
+            
+                <a href="../4/2.html">
+            
+                    
+                    4.2. Constant e Arrays Constant
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../4/3.html">
+            
+                <a href="../4/3.html">
+            
+                    
+                    4.3. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../5/">
+            
+                <a href="../5/">
+            
+                    
+                    5. Funções
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../5/1.html">
+            
+                <a href="../5/1.html">
+            
+                    
+                    5.1. Criando funções
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../5/2.html">
+            
+                <a href="../5/2.html">
+            
+                    
+                    5.2. Parâmetros
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../5/3.html">
+            
+                <a href="../5/3.html">
+            
+                    
+                    5.3. Funções anônimas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../5/4.html">
+            
+                <a href="../5/4.html">
+            
+                    
+                    5.4. Funções recursivas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../5/5.html">
+            
+                <a href="../5/5.html">
+            
+                    
+                    5.5. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../6/">
+            
+                <a href="../6/">
+            
+                    
+                    6. Sessões
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../6/1.html">
+            
+                <a href="../6/1.html">
+            
+                    
+                    6.1. Funcionamento da Sessão
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../6/2.html">
+            
+                <a href="../6/2.html">
+            
+                    
+                    6.2. Funções para Sessão
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../6/3.html">
+            
+                <a href="../6/3.html">
+            
+                    
+                    6.3. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../7/">
+            
+                <a href="../7/">
+            
+                    
+                    7. Trabalhando com HTTP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../7/1.html">
+            
+                <a href="../7/1.html">
+            
+                    
+                    7.1. Entendendo a Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../7/2.html">
+            
+                <a href="../7/2.html">
+            
+                    
+                    7.2. Post, Get e Request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../7/3.html">
+            
+                <a href="../7/3.html">
+            
+                    
+                    7.3. Tratamento de dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../7/4.html">
+            
+                <a href="../7/4.html">
+            
+                    
+                    7.4. Upload de arquivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../7/7.html">
+            
+                <a href="../7/7.html">
+            
+                    
+                    7.7. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../8/">
+            
+                <a href="../8/">
+            
+                    
+                    8. Tratamentos de Erros
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../8/1.html">
+            
+                <a href="../8/1.html">
+            
+                    
+                    8.1. Estrutura de Erros
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../8/2.html">
+            
+                <a href="../8/2.html">
+            
+                    
+                    8.2. Severidade dos Erros
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../8/3.html">
+            
+                <a href="../8/3.html">
+            
+                    
+                    8.3. Operadores try, catch e finally
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../8/4.html">
+            
+                <a href="../8/4.html">
+            
+                    
+                    8.4. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../9/">
+            
+                <a href="../9/">
+            
+                    
+                    9. Sistema de Arquivos
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../9/1.html">
+            
+                <a href="../9/1.html">
+            
+                    
+                    9.1. Lendo e manipulando diretórios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../9/2.html">
+            
+                <a href="../9/2.html">
+            
+                    
+                    9.2. Criando e manipulação de arquivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../9/3.html">
+            
+                <a href="../9/3.html">
+            
+                    
+                    9.3. Trabalhando com upload de arquivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../9/4.html">
+            
+                <a href="../9/4.html">
+            
+                    
+                    9.4. Download de arquivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../9/5.html">
+            
+                <a href="../9/5.html">
+            
+                    
+                    9.5. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../10/">
+            
+                <a href="../10/">
+            
+                    
+                    10. Segurança
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../11/">
+            
+                <a href="../11/">
+            
+                    
+                    11. Funções e extensões do PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../12/">
+            
+                <a href="../12/">
+            
+                    
+                    12. Programação Orientada a Objetos
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../12/1.html">
+            
+                <a href="../12/1.html">
+            
+                    
+                    12.1. Entendendo POO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../12/2.html">
+            
+                <a href="../12/2.html">
+            
+                    
+                    12.2. Classe, Atributos e Métodos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../12/3.html">
+            
+                <a href="../12/3.html">
+            
+                    
+                    12.3. Métodos estáticos e mágicos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.4" data-path="../12/4.html">
+            
+                <a href="../12/4.html">
+            
+                    
+                    12.4. Encapsulamento
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.5" data-path="../12/5.html">
+            
+                <a href="../12/5.html">
+            
+                    
+                    12.5. Herança
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.6" data-path="../12/6.html">
+            
+                <a href="../12/6.html">
+            
+                    
+                    12.6. Interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.7" data-path="../12/7.html">
+            
+                <a href="../12/7.html">
+            
+                    
+                    12.7. Classe Abstrata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.8" data-path="../12/8.html">
+            
+                <a href="../12/8.html">
+            
+                    
+                    12.8. Polimorfismo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.9" data-path="../12/9.html">
+            
+                <a href="../12/9.html">
+            
+                    
+                    12.9. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../13/">
+            
+                <a href="../13/">
+            
+                    
+                    13. Composer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../13/1.html">
+            
+                <a href="../13/1.html">
+            
+                    
+                    13.1. Instalação
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.2" data-path="../13/2.html">
+            
+                <a href="../13/2.html">
+            
+                    
+                    13.2. Entendendo o Composer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.3" data-path="../13/3.html">
+            
+                <a href="../13/3.html">
+            
+                    
+                    13.3. Namespace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.4" data-path="../13/4.html">
+            
+                <a href="../13/4.html">
+            
+                    
+                    13.4. Autoload
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.5" data-path="../13/5.html">
+            
+                <a href="../13/5.html">
+            
+                    
+                    13.5. Pacotes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.6" data-path="../13/6.html">
+            
+                <a href="../13/6.html">
+            
+                    
+                    13.6. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../14/">
+            
+                <a href="../14/">
+            
+                    
+                    14. Conexão com banco de dados
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../14/1.html">
+            
+                <a href="../14/1.html">
+            
+                    
+                    14.1. Instalação e configuração
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.2" data-path="../14/2.html">
+            
+                <a href="../14/2.html">
+            
+                    
+                    14.2. Visão geral
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.3" data-path="../14/3.html">
+            
+                <a href="../14/3.html">
+            
+                    
+                    14.3. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../15/">
+            
+                <a href="../15/">
+            
+                    
+                    15. Manipulação de dados
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../15/1.html">
+            
+                <a href="../15/1.html">
+            
+                    
+                    15.1. Conexão
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.2" data-path="../15/2.html">
+            
+                <a href="../15/2.html">
+            
+                    
+                    15.2. Inserindo Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.3" data-path="../15/3.html">
+            
+                <a href="../15/3.html">
+            
+                    
+                    15.3. Alterando Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.4" data-path="../15/4.html">
+            
+                <a href="../15/4.html">
+            
+                    
+                    15.4. Deletando Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.5" data-path="../15/5.html">
+            
+                <a href="../15/5.html">
+            
+                    
+                    15.5. Transactions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.6" data-path="../15/6.html">
+            
+                <a href="../15/6.html">
+            
+                    
+                    15.6. Exercícios de Fixação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../16/">
+            
+                <a href="../16/">
+            
+                    
+                    16. Projeto final
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >2.4. Operadores</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="todo-wip">TODO: wip</h1>
+<h1 id="24-operadores">2.4. Operadores</h1>
+<p>Nesse cap&#xED;tulo aprenderemos sobre os operadores suportados pelo PHP.
+Quais seus tipos preced&#xEA;ncias e seus tipos.</p>
+<h2 id="operadores">Operadores</h2>
+<p>Um operador &#xE9; utilizado para realizar opera&#xE7;&#xF5;es entre um ou mais valores
+(ou express&#xF5;es, no jarg&#xE3;o de programa&#xE7;&#xE3;o) e retornar apenas um valor
+final. Vamos agora aos operadores.</p>
+<h3 id="aritm&#xE9;ticos">Aritm&#xE9;ticos</h3>
+<p>S&#xF3; podem ser utilizados quando os operandos s&#xE3;o n&#xFA;meros (integer ou
+float). Se forem de outro tipo, ter&#xE3;o seus valores convertidos antes da
+realiza&#xE7;&#xE3;o da opera&#xE7;&#xE3;o.</p>
+<ul>
+<li>+    Adi&#xE7;&#xE3;o</li>
+<li>-    Subtra&#xE7;&#xE3;o</li>
+<li>*   Multiplica&#xE7;&#xE3;o</li>
+<li>\/    Divis&#xE3;o</li>
+<li>\%    M&#xF3;dulo (resto da divis&#xE3;o)</li>
+</ul>
+<h3 id="de-strings">De strings</h3>
+<p>S&#xF3; h&#xE1; um operador exclusivo para strings (ponto):</p>
+<ul>
+<li>.   Concatena&#xE7;&#xE3;o</li>
+</ul>
+<h3 id="de-atribui&#xE7;&#xE3;o">De atribui&#xE7;&#xE3;o</h3>
+<p>Existe um operador b&#xE1;sico de atribui&#xE7;&#xE3;o e diversos derivados. Sempre
+retornam o valor atribu&#xED;do. No caso dos operadores derivados de
+atribui&#xE7;&#xE3;o, a opera&#xE7;&#xE3;o &#xE9; feita entre os dois operandos, sendo atribu&#xED;do
+o resultado para o primeiro. A atribui&#xE7;&#xE3;o &#xE9; sempre por valor, e n&#xE3;o por
+refer&#xEA;ncia.</p>
+<ul>
+<li>\=     Atribui&#xE7;&#xE3;o simples</li>
+<li>+=    Atribui&#xE7;&#xE3;o com adi&#xE7;&#xE3;o</li>
+<li>-=    Atribui&#xE7;&#xE3;o com subtra&#xE7;&#xE3;o</li>
+<li>*=   Atribui&#xE7;&#xE3;o com multiplica&#xE7;&#xE3;o</li>
+<li>\/=    Atribui&#xE7;&#xE3;o com divis&#xE3;o</li>
+<li>\%=    Atribui&#xE7;&#xE3;o com m&#xF3;dulo</li>
+<li>.=    Atribui&#xE7;&#xE3;o com concatena&#xE7;&#xE3;o</li>
+</ul>
+<h3 id=""> </h3>
+<h3 id="bit-a-bit">Bit a bit</h3>
+<p>Comparam dois n&#xFA;meros bit a bit.</p>
+<ul>
+<li>\&amp;          &#x201C;e&#x201D; l&#xF3;gico</li>
+<li>|          &#x201C;ou&#x201D; l&#xF3;gico (pipe)</li>
+<li>\^         &#x201C;ou&#x201D; exclusivo</li>
+<li>~         N&#xE3;o (invers&#xE3;o)</li>
+<li>&lt;&lt;   shift left</li>
+<li>&gt;&gt;   shift right</li>
+</ul>
+<h3 id="l&#xF3;gico">L&#xF3;gico</h3>
+<p>Utilizados para inteiros representando valores booleanos.</p>
+<ul>
+<li>and   &#x201C;e&#x201D; l&#xF3;gico</li>
+<li>or    &#x201C;ou&#x201D; l&#xF3;gico (pipe)</li>
+<li>xor   &#x201C;ou&#x201D; exclusivo</li>
+<li>!     N&#xE3;o (invers&#xE3;o)</li>
+<li>&amp;&amp;    &#x201C;e&#x201D; l&#xF3;gico</li>
+<li>||    &#x201C;ou&#x201D; l&#xF3;gico (pipe pipe)</li>
+</ul>
+<h3 id="compara&#xE7;&#xE3;o">Compara&#xE7;&#xE3;o</h3>
+<p>As compara&#xE7;&#xF5;es s&#xE3;o feitas entre os valores contidos nas vari&#xE1;veis, e n&#xE3;o
+as refer&#xEA;ncias. Sempre retornam um valor booleano.</p>
+<ul>
+<li>==      Igual a</li>
+<li>!       Diferente</li>
+<li>&lt;    Menor que</li>
+<li>&gt;    Maior que</li>
+<li>&lt;=   Menor ou igual a</li>
+<li>&gt;=   Maior ou igual a</li>
+</ul>
+<h3 id="express&#xE3;o-condicional-ou-tern&#xE1;ria">Express&#xE3;o condicional ou tern&#xE1;ria</h3>
+<p>Existe um operador de sele&#xE7;&#xE3;o que &#xE9; tern&#xE1;rio. O interpretador PHP avalia
+a primeira express&#xE3;o. Se ela for verdadeira, a express&#xE3;o retorna o valor
+de express&#xE3;o2. Sen&#xE3;o, retorna o valor de express&#xE3;o3.</p>
+<p><code>&lt;?php ( expressao1 ) ? ( expressao2 ) : ( expressao3 );</code></p>
+<h3 id=""> </h3>
+<h3 id="de-incremento-ou-decremento">De incremento ou Decremento</h3>
+<p>Podem ser utilizados de duas formas: antes ou depois da vari&#xE1;vel. Quando
+utilizado antes, retorna o valor da vari&#xE1;vel antes de increment&#xE1;-la ou
+decrement&#xE1;-la. Quando utilizado depois, retorna o valor da vari&#xE1;vel j&#xE1;
+incrementado ou decrementado.</p>
+<ul>
+<li>++   Incremento</li>
+<li>--   Decremento</li>
+</ul>
+<h3 id="ordem-de-preced&#xEA;ncias-dos-operadores">Ordem de preced&#xEA;ncias dos operadores</h3>
+<table>
+<thead>
+<tr>
+<th>Preced&#xEA;ncia</th>
+<th>Associatividade</th>
+<th>Operadores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>  1</td>
+<td>Esquerda</td>
+<td>,</td>
+</tr>
+<tr>
+<td>  2</td>
+<td>Esquerda</td>
+<td>or</td>
+</tr>
+<tr>
+<td>  3</td>
+<td>Esquerda</td>
+<td>xor</td>
+</tr>
+<tr>
+<td>  4</td>
+<td>Esquerda</td>
+<td>and</td>
+</tr>
+<tr>
+<td>  5</td>
+<td>Direita</td>
+<td>print</td>
+</tr>
+<tr>
+<td>  6</td>
+<td>Esquerda</td>
+<td>=, +=, -=, *=, =, .=, %=, &amp;=, !=, ~=, &lt;&lt;= e &gt;&gt;=</td>
+</tr>
+<tr>
+<td>  7</td>
+<td>Esquerda</td>
+<td>? e :</td>
+</tr>
+<tr>
+<td>  8</td>
+<td>Esquerda</td>
+<td>\</td>
+<td>\</td>
+<td></td>
+</tr>
+<tr>
+<td>  9</td>
+<td>Esquerda</td>
+<td>&amp;&amp;</td>
+</tr>
+<tr>
+<td>  10</td>
+<td>Esquerda</td>
+<td>\</td>
+<td></td>
+</tr>
+<tr>
+<td>  11</td>
+<td>Esquerda</td>
+<td>&amp;</td>
+</tr>
+<tr>
+<td>  12</td>
+<td>Esquerda</td>
+<td>\^</td>
+</tr>
+<tr>
+<td>  13</td>
+<td>N&#xE3;o associa</td>
+<td>== e !=</td>
+</tr>
+<tr>
+<td>  14</td>
+<td>N&#xE3;o associa</td>
+<td>&lt;, &lt;=, &gt; e &gt;=</td>
+</tr>
+<tr>
+<td>  15</td>
+<td>Esquerda</td>
+<td>&lt;&lt; e &gt;&gt;</td>
+</tr>
+<tr>
+<td>  16</td>
+<td>Esquerda</td>
+<td>+, - e .</td>
+</tr>
+<tr>
+<td>  17</td>
+<td>Esquerda</td>
+<td>*, \/ e %</td>
+</tr>
+<tr>
+<td>  18</td>
+<td>Direita</td>
+<td>!, ~, ++, --, (int), (double), (string), (array), (object) e @</td>
+</tr>
+<tr>
+<td>  19</td>
+<td>Direita</td>
+<td>@</td>
+</tr>
+<tr>
+<td>  20</td>
+<td>N&#xE3;o associa</td>
+<td>new</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resumo-do-cap&#xED;tulo">Resumo do Cap&#xED;tulo</h2>
+<p>Nesse cap&#xED;tulo aprendemos sobre os operadores l&#xF3;gicos e matem&#xE1;ticos que
+o PHP trabalha. Eles s&#xE3;o muito importante pois usar&#xE1; eles praticamente
+em todo seu site ou, pelo menos, uma vez em cada script.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="3.html" class="navigation navigation-prev " aria-label="Previous page: 2.3. Escopo de documentos: require, include">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="5.html" class="navigation navigation-next " aria-label="Next page: 2.5. Exercícios de Fixação">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.4. Operadores","level":"1.4.4","depth":2,"next":{"title":"2.5. Exercícios de Fixação","level":"1.4.5","depth":2,"path":"2/5.md","ref":"2/5.md","articles":[]},"previous":{"title":"2.3. Escopo de documentos: require, include","level":"1.4.3","depth":2,"path":"2/3.md","ref":"2/3.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","ga","github","prism","-highlight","github-edit"],"root":"./manuscript","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"openschoolbr"},"github":{"url":"https://github.com/openschoolbr/curso-php"},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"fontsettings":{"family":"sans","size":2,"theme":"white"},"github-edit":{"repo":"openschoolbr/curso-php","branch":"master/manuscript"},"ga":{"configuration":"auto","token":""},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"Open School - A escola livre","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"readme.md","glossary":"glossary.md","summary":"summary.md"},"variables":{},"title":"Curso de PHP","language":"pt-BR","gitbook":"*"},"file":{"path":"2/4.md","mtime":"2017-08-30T13:02:24.764Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-30T17:47:05.443Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-edit/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
