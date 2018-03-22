@@ -1,7 +1,7 @@
 {
-  "name": "openschoolbr-curso-php",
+  "name": "siga-ajuda-professor",
   "version": "0.0.1",
-  "description": "Curso de PHP da Open School",
+  "description": "Material de ajuda para o app dos professores da Fagoc",
   "dependencies": {
     "gh-pages": "^0.12.0",
     "gitbook-plugin-ace": "^0.3.2",
@@ -14,6 +14,7 @@
     "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-gist": "^1.0.0",
     "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-github-edit": "^1.0.8",
     "gitbook-plugin-include-codeblock": "^3.0.2",
     "gitbook-plugin-jsfiddle": "^1.0.0",
     "gitbook-plugin-prism": "^2.2.1",
@@ -33,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openschoolbr/curso-php.git"
+    "url": "git+https://github.com/fagocbr/ajuda-professor.git"
   },
   "keywords": [
     "PHP"
@@ -41,7 +42,7 @@
   "author": "@wilcorrea",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openschoolbr/curso-php/issues"
+    "url": "https://github.com/fagocbr/ajuda-professor/issues"
   },
-  "homepage": "https://github.com/openschoolbr/curso-phps#readme"
+  "homepage": "https://github.com/fagocbr/ajuda-professors#readme"
 }

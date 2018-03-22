@@ -1,7 +1,7 @@
 {
-  "title": "Curso de PHP",
+  "title": "Ajuda do Professor",
   "language": "pt-BR",
-  "author": "Open School - A escola livre",
+  "author": "Material de ajuda para o app dos professores da Fagoc",
   "root": "./manuscript",
   "structure": {
     "readme": "readme.md",
@@ -9,7 +9,6 @@
     "summary": "summary.md"
   },
   "plugins": [
-    "disqus",
     "ga",
     "github",
     "prism",
@@ -18,16 +17,16 @@
   ],
   "pluginsConfig": {
     "disqus": {
-      "shortName": "openschoolbr"
+      "shortName": "ajuda-professor"
     },
     "ga": {
       "token": ""
     },
     "github": {
-      "url": "https://github.com/openschoolbr/curso-php"
+      "url": "https://github.com/fagocbr/ajuda-professor"
     },
     "github-edit": {
-        "repo": "openschoolbr/curso-php",
+        "repo": "fagocbr/ajuda-professor",
         "branch": "master/manuscript"
     }
   }

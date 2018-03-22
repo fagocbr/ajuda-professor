@@ -1,11 +1,11 @@
-<p align="center"><img src="https://github.com/openschoolbr/design/raw/master/src/png/black-vertical.png" height="150px" alt="Open School Brasil"></p>
-<h1 align="center">Curso de PHP</h1>
-<p align="center">:elephant: Aprenda a programar PHP, do básico ao avançado.</p>
+<p align="center"><img src="http://fagoc.br/download/a/logo" alt="Fagoc"></p>
+<h1 align="center">Ajuda do Professor</h1>
+<p align="center">:smile: Material de ajuda para o app dos professores da Fagoc.</p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/%24-free-%23a10000.svg" alt="Pay"></a> 
   <a href="/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub License"></a>
-  <a href="/issues"><img src="https://img.shields.io/github/issues/openschoolbr/curso-php.svg" alt="GitHub Issues"></a>
+  <a href="/issues"><img src="https://img.shields.io/github/issues/fagocbr/ajuda-professor.svg" alt="GitHub Issues"></a>
 </p>
 
 ## Como contribuir
@@ -16,7 +16,7 @@
 
 2. Faça seu clone local (usando ssh de preferência);<br>
   2.1. Caso prefira pode trabalhar diretamente pelo Github e atualizar o seu clone para poder fazer a publicação das suas mudanças através de PR para o repositório principal;<br>
-  2.2. É importante lembrar que mudar os arquivos do diretório `manuscript` não atualiza a visualização da [apostila online](https://openschoolbr.github.io/curso-php), para tal é necesário seguir a etapa 4;<br>
+  2.2. É importante lembrar que mudar os arquivos do diretório `manuscript` não atualiza a visualização do material publicado, para tal é necesário seguir a etapa 4;<br>
 
 3. Execute o comando `npm run dev` na raiz da pasta de destino do clone;<br>
   3.1. Você pode usar o hot reload para ir visualizando o resultando das mudanças que está fazendo em http://localhost:4000;<br>
@@ -27,9 +27,7 @@
 
 ----
 
-###### Powered by Gitbook | made with ♥ by [Open School Brasil](https://openschoolbr.github.io/)
-
-###### Special thanks to [PHProgramando](https://github.com/PHProgramando/phprogramando)
+###### Powered by Gitbook | made with ♥ by [Fagoc](http://fagoc.br)
 
 ----
-(https://toolchain.gitbook.com/syntax/markdown.html)
+[Ajuda](https://toolchain.gitbook.com/syntax/markdown.html)
